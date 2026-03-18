@@ -6,8 +6,11 @@
   "plugins": [
     {
       "name": "super-simple",
-      "source": "./super-simple",
-      "description": "A minimal plugin with one skill: write a PRD using the TI Product Brief template."
+      "source": {
+        "source": "url",
+        "url": "https://github.com/denaes/denaes-super-simple-plugin"
+      },
+      "description": "Core skills library: TDD, debugging, collaboration patterns, and proven techniques"
     }
   ]
 }
